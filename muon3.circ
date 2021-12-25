@@ -132,7 +132,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="downloadFrequency" val="1.0"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="16.0"/>
     <appear>
       <circ-anchor facing="east" height="6" width="6" x="47" y="47"/>
     </appear>
@@ -880,7 +880,8 @@ fc 14*f 5 2 14*f d 15*f 4
 5 ac 5 fc 11*f 9b 15*f fb
 6 3c 13*f 5 fc 14*f bc 15*f
 c 15*f ec 15*f 6c 15*f cb 111*f
-5 2 14*f 5 3 1518*f
+5 2 14*f 5 3 14*f 8c 15*f
+9c 15*f 9c 5 8 5 a 1467*f
 </a>
     </comp>
     <comp lib="4" loc="(820,420)" name="RAM">
